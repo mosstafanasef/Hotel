@@ -1,0 +1,271 @@
+/* resat */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* main style */
+body{
+  font-family:'Hind Siliguri', sans-serif;
+  line-height: 1.5em;
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+h1,h2,h3{
+  padding-bottom: 20px;
+
+}
+p{
+  margin: 10px 0;
+}
+/* Utilites */
+
+.contaner{
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary{
+  
+  color: rgb(147, 203, 82);
+
+}
+.text-size{
+  font-size: 22px;
+}
+.btn{
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background-color: #444;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgb(147, 203, 82);
+}
+.btn-light{
+  background: #f4f4f4;
+  color: #444;
+}
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+.bg-light{
+  background: #bdbdbd;
+  color: #333;
+}
+.bg-primary{
+  background:  rgb(147, 203, 82);
+  color:#f4f4f4;
+}
+.cls{
+  clear: both;
+}
+.l-headding{
+  font-size: 35px;
+  /* margin-top: 10px;   */
+  line-height: 2.3rem;
+}
+/* padding */
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 50px 20px;}
+
+
+/* navbar */
+#nav-bar{
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+#nav-bar a{
+  color: #fff; 
+}
+#nav-bar .logo {
+  float: left;
+  padding-top: 20px ;
+}
+#nav-bar ul{
+  list-style: none;
+  float: right;
+}
+#nav-bar ul li{
+  float: left;
+}
+#nav-bar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#nav-bar ul li a:hover ,
+#nav-bar ul li a.current{
+  background-color: #444;
+  color: rgb(147, 203, 82);
+}
+
+/* showcass */
+#showcass{
+  background: url(../img/pic1.jpg) no-repeat center center/cover;
+  height: 700px;
+ 
+}
+#showcass .showcass-contant{
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+}
+#showcass .showcass-contant h1{
+  font-size: 50px;
+  line-height: 1.5em;
+}
+#showcass .showcass-contant p{
+  padding-bottom: 10px;
+  line-height: 1.7em;
+ 
+}
+/* home info */
+#home-info{
+  height: 450px;
+}
+#home-info .info-img{
+  float:left ;
+  width: 50%;
+  background: url(../img/pic211.jpg)no-repeat center center/cover;
+  min-height: 100%;
+
+}
+#home-info .info-text{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  padding: 40px 30px;
+  overflow: hidden;
+
+}
+#home-info .info-text p {
+  padding-bottom: 20px;
+ 
+}
+/* features */
+.box{
+  float: left;
+  padding: 40px;
+  width: 25%;
+  text-align: center;
+}
+.box i {
+  margin-bottom:15px;
+}
+/* about */
+#about-info{
+  height: 600px;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+#about-info .contaner{
+  margin:0 75px;
+}
+#testimonails{
+  height:100%;
+  background: url('../img/test.jpg') no-repeat center center/cover;
+  padding-top: 40px;
+}
+#testimonails h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top:20px ;
+  
+
+}
+#testimonails .testimonail{
+  padding: 40px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  opacity: 0.9;
+
+}
+#testimonails .testimonail img{
+  max-width: 100px;
+  float: left;
+  margin:auto 30px;
+  margin-top: -30px;
+  border-radius: 50rem;
+}
+/* contact form */
+#contact-form{
+  background: url('../img/test.jpg') no-repeat center center/cover;
+  padding-top: 40px;
+}
+#contact-form .form-grob{
+  margin-bottom:20px ;
+}
+#contact-form label{
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(147, 203, 82);
+}
+#contact-form input,
+#contact-form textarea{
+  border: #ddd solid 1px;
+  width: 100%;
+  padding: 20px;
+  opacity: 0.8;
+  font-size: 25px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+outline: none;
+border-color: rgb(167, 219, 108);
+
+}
+#contact-form textarea{
+  height: 200px;
+}
+
+#contact-form button{
+  display: block;
+  padding: 15px;
+  margin: 20px auto;
+}
+/* contact info */
+#contact-info{
+  margin: auto;
+  
+}
+#contact-info .box{
+  width: 33.3%;
+}
+/* fotter */
+#main-fotter{
+  text-align: center;
+  background: #555;
+  color: #f4f4f4;
+  padding: 10px;
+}
